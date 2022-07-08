@@ -13,6 +13,7 @@
 		0E4FDEDB2877B8EA006C8035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4FDED92877B8EA006C8035 /* Main.storyboard */; };
 		0E4FDEDD2877B8EC006C8035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4FDEDC2877B8EC006C8035 /* Assets.xcassets */; };
 		0E4FDEE02877B8EC006C8035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4FDEDE2877B8EC006C8035 /* LaunchScreen.storyboard */; };
+		0E4FDF082877BEAC006C8035 /* BaminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FDF072877BEAC006C8035 /* BaminViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0E4FDEDC2877B8EC006C8035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E4FDEDF2877B8EC006C8035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E4FDEE12877B8EC006C8035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4FDF072877BEAC006C8035 /* BaminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaminViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0E4FDED32877B8EA006C8035 /* AppDelegate.swift */,
 				0E4FDED52877B8EA006C8035 /* SceneDelegate.swift */,
 				0E4FDED72877B8EA006C8035 /* ViewController.swift */,
+				0E4FDF072877BEAC006C8035 /* BaminViewController.swift */,
 				0E4FDED92877B8EA006C8035 /* Main.storyboard */,
 				0E4FDEDC2877B8EC006C8035 /* Assets.xcassets */,
 				0E4FDEDE2877B8EC006C8035 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				0E4FDED82877B8EA006C8035 /* ViewController.swift in Sources */,
 				0E4FDED42877B8EA006C8035 /* AppDelegate.swift in Sources */,
+				0E4FDF082877BEAC006C8035 /* BaminViewController.swift in Sources */,
 				0E4FDED62877B8EA006C8035 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
